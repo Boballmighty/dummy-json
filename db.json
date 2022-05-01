@@ -91,8 +91,8 @@
             }
         }
     ],
-"messagesImage":[
-{
+    "messagesImage": [
+        {
             "trigger": {
                 "_type": "NoEventTrigger"
             },
@@ -100,13 +100,30 @@
                 "dataTypes": [
                     {
                         "_type": "ImageDataType",
-                        "imageUrl" : "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-                        "imageSize":"Half"
-                    },
+                        "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                        "imageSize": "Half"
+                    }
+                ],
+                "_type": "FullScreenInApp"
+            },
+            "id": "613dd1af13cbc6707a5a25b1",
+            "report": {
+                "campaign_name": "test_inapp",
+                "step_number": "test_inapp"
+            }
+        }
+    ],
+    "messagesText": [
+        {
+            "trigger": {
+                "_type": "NoEventTrigger"
+            },
+            "presentation": {
+                "dataTypes": [
                     {
-                        "_type" : "TextDataType",
-                        "contentText" : "Test Text",
-                        "textSize": 30, 
+                        "_type": "TextDataType",
+                        "contentText": "Test Text",
+                        "textSize": 30,
                         "textColor": "#ffffff",
                         "viewId": "Text1",
                         "Anchor": {
@@ -124,5 +141,39 @@
                 "step_number": "test_inapp"
             }
         }
-]
+    ],
+    "messagesBundle": [
+        {
+            "trigger": {
+                "_type": "NoEventTrigger"
+            },
+            "presentation": {
+                "dataTypes": [
+                    {
+                        "_type": "ImageDataType",
+                        "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                        "imageSize": "Half"
+                    },
+                    {
+                        "_type": "TextDataType",
+                        "contentText": "Test Text",
+                        "textSize": 30,
+                        "textColor": "#ffffff",
+                        "viewId": "Text1",
+                        "Anchor": {
+                            "viewAnchor": "Quarter",
+                            "AnchorPosition": "Below",
+                            "spacing": 44
+                        }
+                    }
+                ],
+                "_type": "FullScreenInApp"
+            },
+            "id": "613dd1af13cbc6707a5a25b1",
+            "report": {
+                "campaign_name": "test_inapp",
+                "step_number": "test_inapp"
+            }
+        }
+    ]
 }
