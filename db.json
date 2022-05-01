@@ -97,21 +97,23 @@
                 "_type": "NoEventTrigger"
             },
             "presentation": {
-                "title": "Out of paper 1",
-                "body": "Would you like to purchase new Zink paper with discount",
-                "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
-                "textColorHex": "#132E48",
-                "ctas": [
+                "dataTypes": [
                     {
-                        "backgroundColorHex": "#FCB632",
-                        "textColorHex": "#ffffff",
-                        "text": "Deeplink!",
-                        "report": "cta_1",
-                        "action": {
-                            "_type": "AppNavigation",
-                            "appNavigationCommandIOS": "alert"
-                        },
-                        "_type": "ButtonCta"
+                        "_type": "ImageDataType",
+                        "imageUrl" : "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                        "imageSize":"Half"
+                    },
+                    {
+                        "_type" : "TextDataType",
+                        "contentText" : "Test Text",
+                        "textSize": 30, 
+                        "textColor": "#ffffff",
+                        "viewId": "Text1",
+                        "Anchor": {
+                            "viewAnchor": "Quarter",
+                            "AnchorPosition": "Below",
+                            "spacing": 44
+                        }
                     }
                 ],
                 "_type": "FullScreenInApp"
