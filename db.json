@@ -1,118 +1,123 @@
 {
-    "messages": [
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
+    "messages": {
+        "message": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "title": "Out of paper 1",
+                    "body": "Would you like to purchase new Zink paper with discount",
+                    "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
+                    "textColorHex": "#132E48",
+                    "ctas": [
+                        {
+                            "backgroundColorHex": "#FCB632",
+                            "textColorHex": "#ffffff",
+                            "text": "Deeplink!",
+                            "report": "cta_1",
+                            "action": {
+                                "_type": "AppNavigation",
+                                "appNavigationCommandIOS": "alert"
+                            },
+                            "_type": "ButtonCta"
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             },
-            "presentation": {
-                "title": "Out of paper 1",
-                "body": "Would you like to purchase new Zink paper with discount",
-                "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
-                "textColorHex": "#132E48",
-                "ctas": [
-                    {
-                        "backgroundColorHex": "#FCB632",
-                        "textColorHex": "#ffffff",
-                        "text": "Deeplink!",
-                        "report": "cta_1",
-                        "action": {
-                            "_type": "AppNavigation",
-                            "appNavigationCommandIOS": "alert"
-                        },
-                        "_type": "ButtonCta"
-                    }
-                ],
-                "_type": "FullScreenInAppModel"
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "title": "Out of paper 2",
+                    "body": "Would you like to purchase new Zink paper with discount",
+                    "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
+                    "textColorHex": "#132E48",
+                    "ctas": [
+                        {
+                            "backgroundColorHex": "#FCB632",
+                            "textColorHex": "#ffffff",
+                            "text": "Deeplink!",
+                            "report": "cta_1",
+                            "action": {
+                                "_type": "AppNavigation",
+                                "appNavigationCommandIOS": "alert"
+                            },
+                            "_type": "ButtonCta"
+                        }
+                    ],
+                    "_type": "SimpleInappModel"
+                },
+                "id": "613dd1afdddbc6707a5a25b2",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             },
-            "id": "613dd1af13cbc6707a5a25b1",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "title": "Out of paper 3",
+                    "body": "Would you like to purchase new Zink paper with discount",
+                    "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
+                    "textColorHex": "#132E48",
+                    "ctas": [
+                        {
+                            "backgroundColorHex": "#FCB632",
+                            "textColorHex": "#ffffff",
+                            "text": "Deeplink!",
+                            "report": "cta_1",
+                            "action": {
+                                "_type": "AppNavigation",
+                                "appNavigationCommandIOS": "alert"
+                            },
+                            "_type": "ButtonCta"
+                        }
+                    ],
+                    "_type": "SimpleInappModel"
+                },
+                "id": "613dd1af13cxxbc6707a5a25b3",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             }
-        },
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
-            },
-            "presentation": {
-                "title": "Out of paper 2",
-                "body": "Would you like to purchase new Zink paper with discount",
-                "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
-                "textColorHex": "#132E48",
-                "ctas": [
-                    {
-                        "backgroundColorHex": "#FCB632",
-                        "textColorHex": "#ffffff",
-                        "text": "Deeplink!",
-                        "report": "cta_1",
-                        "action": {
-                            "_type": "AppNavigation",
-                            "appNavigationCommandIOS": "alert"
-                        },
-                        "_type": "ButtonCta"
-                    }
-                ],
-                "_type": "SimpleInappModel"
-            },
-            "id": "613dd1afdddbc6707a5a25b2",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
+        ]
+    },
+    "messagesImage": 
+    {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ImageViewType",
+                            "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                            "imageSize": "Half"
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             }
-        },
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
-            },
-            "presentation": {
-                "title": "Out of paper 3",
-                "body": "Would you like to purchase new Zink paper with discount",
-                "imageUrl": "https://cdn.shopify.com/s/files/1/0294/6033/2588/products/Polaroid_M230_2X3_film_Tamworth_360x.png?v=1579596389",
-                "textColorHex": "#132E48",
-                "ctas": [
-                    {
-                        "backgroundColorHex": "#FCB632",
-                        "textColorHex": "#ffffff",
-                        "text": "Deeplink!",
-                        "report": "cta_1",
-                        "action": {
-                            "_type": "AppNavigation",
-                            "appNavigationCommandIOS": "alert"
-                        },
-                        "_type": "ButtonCta"
-                    }
-                ],
-                "_type": "SimpleInappModel"
-            },
-            "id": "613dd1af13cxxbc6707a5a25b3",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
-            }
-        }
-    ],
-    "messagesImage": [
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
-            },
-            "presentation": {
-                "viewTypes": [
-                    {
-                        "_type": "ImageViewType",
-                        "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-                        "imageSize": "Half"
-                    }
-                ],
-                "_type": "FullScreenInAppModel"
-            },
-            "id": "613dd1af13cbc6707a5a25b1",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
-            }
-        }
-    ],
+        ]
+    },
     "messagesText": [
         {
             "trigger": {
