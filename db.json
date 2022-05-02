@@ -126,7 +126,7 @@
                         "textSize": 30,
                         "textColor": "#ffffff",
                         "viewId": "Text1",
-                        "Anchor": {
+                        "anchor": {
                             "viewAnchor": "Quarter",
                             "AnchorPosition": "Below",
                             "spacing": 44
@@ -160,7 +160,7 @@
                         "textSize": 30,
                         "textColor": "#ffffff",
                         "viewId": "Text1",
-                        "Anchor": {
+                        "anchor": {
                             "viewAnchor": "Quarter",
                             "AnchorPosition": "Below",
                             "spacing": 44
