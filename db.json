@@ -22,7 +22,7 @@
                         "_type": "ButtonCta"
                     }
                 ],
-                "_type": "FullScreenInApp"
+                "_type": "FullScreenInAppModel"
             },
             "id": "613dd1af13cbc6707a5a25b1",
             "report": {
@@ -97,14 +97,14 @@
                 "_type": "NoEventTrigger"
             },
             "presentation": {
-                "dataTypes": [
+                "viewTypes": [
                     {
-                        "_type": "ImageDataType",
+                        "_type": "ImageViewType",
                         "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
                         "imageSize": "Half"
                     }
                 ],
-                "_type": "FullScreenInApp"
+                "_type": "FullScreenInAppModel"
             },
             "id": "613dd1af13cbc6707a5a25b1",
             "report": {
@@ -119,9 +119,9 @@
                 "_type": "NoEventTrigger"
             },
             "presentation": {
-                "dataTypes": [
+                "viewTypes": [
                     {
-                        "_type": "TextDataType",
+                        "_type": "TextViewType",
                         "contentText": "Test Text",
                         "textSize": 30,
                         "textColor": "#ffffff",
@@ -133,7 +133,7 @@
                         }
                     }
                 ],
-                "_type": "FullScreenInApp"
+                "_type": "FullScreenInAppModel"
             },
             "id": "613dd1af13cbc6707a5a25b1",
             "report": {
@@ -148,14 +148,14 @@
                 "_type": "NoEventTrigger"
             },
             "presentation": {
-                "dataTypes": [
+                "viewTypes": [
                     {
-                        "_type": "ImageDataType",
+                        "_type": "ImageViewType",
                         "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
                         "imageSize": "Half"
                     },
                     {
-                        "_type": "TextDataType",
+                        "_type": "TextViewType",
                         "contentText": "Test Text",
                         "textSize": 30,
                         "textColor": "#ffffff",
@@ -167,7 +167,7 @@
                         }
                     }
                 ],
-                "_type": "FullScreenInApp"
+                "_type": "FullScreenInAppModel"
             },
             "id": "613dd1af13cbc6707a5a25b1",
             "report": {
