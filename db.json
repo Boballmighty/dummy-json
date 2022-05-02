@@ -133,7 +133,7 @@
                             "viewId": "Text1",
                             "anchor": {
                                 "viewAnchor": "Quarter",
-                                "AnchorPosition": "Below",
+                                "anchorPosition": "Below",
                                 "spacing": 44
                             }
                         }
