@@ -93,8 +93,7 @@
             }
         ]
     },
-    "messagesImage": 
-    {
+    "messagesImage": {
         "messages": [
             {
                 "trigger": {
@@ -118,35 +117,37 @@
             }
         ]
     },
-    "messagesText": [
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
-            },
-            "presentation": {
-                "viewTypes": [
-                    {
-                        "_type": "TextViewType",
-                        "contentText": "Test Text",
-                        "textSize": 30,
-                        "textColor": "#ffffff",
-                        "viewId": "Text1",
-                        "anchor": {
-                            "viewAnchor": "Quarter",
-                            "AnchorPosition": "Below",
-                            "spacing": 44
+    "messagesText": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "TextViewType",
+                            "contentText": "Test Text",
+                            "textSize": 30,
+                            "textColor": "#ffffff",
+                            "viewId": "Text1",
+                            "anchor": {
+                                "viewAnchor": "Quarter",
+                                "AnchorPosition": "Below",
+                                "spacing": 44
+                            }
                         }
-                    }
-                ],
-                "_type": "FullScreenInAppModel"
-            },
-            "id": "613dd1af13cbc6707a5a25b1",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             }
-        }
-    ],
+        ]
+    },
     "messagesBundle": [
         {
             "trigger": {
