@@ -168,7 +168,7 @@
                         "viewId": "Text1",
                         "anchor": {
                             "viewAnchor": "Quarter",
-                            "AnchorPosition": "Below",
+                            "anchorPosition": "Below",
                             "spacing": 44
                         }
                     }
@@ -181,5 +181,36 @@
                 "step_number": "test_inapp"
             }
         }
-    ]
+    ],
+    "messagesButton": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "button1Title": "Button 1",
+                            "button2Title": "Button 2 text",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    }
 }
