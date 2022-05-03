@@ -148,40 +148,42 @@
             }
         ]
     },
-    "messagesBundle": [
-        {
-            "trigger": {
-                "_type": "NoEventTrigger"
-            },
-            "presentation": {
-                "viewTypes": [
-                    {
-                        "_type": "ImageViewType",
-                        "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-                        "imageSize": "Half"
-                    },
-                    {
-                        "_type": "TextViewType",
-                        "contentText": "Test Text",
-                        "textSize": 30,
-                        "textColor": "#ffffff",
-                        "viewId": "Text1",
-                        "anchor": {
-                            "viewAnchor": "Quarter",
-                            "anchorPosition": "Below",
-                            "spacing": 44
+    "messagesBundle": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ImageViewType",
+                            "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                            "imageSize": "Half"
+                        },
+                        {
+                            "_type": "TextViewType",
+                            "contentText": "Test Text",
+                            "textSize": 30,
+                            "textColor": "#ffffff",
+                            "viewId": "Text1",
+                            "anchor": {
+                                "viewAnchor": "Quarter",
+                                "anchorPosition": "Below",
+                                "spacing": 44
+                            }
                         }
-                    }
-                ],
-                "_type": "FullScreenInAppModel"
-            },
-            "id": "613dd1af13cbc6707a5a25b1",
-            "report": {
-                "campaign_name": "test_inapp",
-                "step_number": "test_inapp"
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
             }
-        }
-    ],
+        ]
+    },
     "messagesButton": {
         "messages": [
             {
