@@ -165,7 +165,7 @@
                             "_type": "TextViewType",
                             "contentText": "Test Text",
                             "textSize": 30,
-                            "textColor": "#ffffff",
+                            "textColorHex": "#ffffff",
                             "viewId": "Text1",
                             "anchor": {
                                 "viewAnchor": "Quarter",
