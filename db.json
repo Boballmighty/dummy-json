@@ -196,7 +196,7 @@
                             "_type": "ButtonViewType",
                             "button1Title": "Button 1",
                             "button2Title": "Button 2 text",
-                            "buttonNumer" : 2,
+                            "buttonNumber" : 2,
                             "buttonSpacing": 20,
                             "viewId": "Button",
                             "anchor": {
