@@ -194,8 +194,8 @@
                     "viewTypes": [
                         {
                             "_type": "ButtonViewType",
-                            "button1Title": "Button 1",
-                            "button2Title": "Button 2 text",
+                            "button1Text": "Button 1",
+                            "button2Text": "Button 2 text",
                             "buttonNumber" : 2,
                             "buttonSpacing": 20,
                             "viewId": "Button",
