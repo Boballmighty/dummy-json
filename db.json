@@ -118,7 +118,49 @@
                 }
             }
         ]
-    }, 
+    },
+    "messagesButtonSingle": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "ctas": [
+                                {
+                                    "backgroundColorHex": "#f54263",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Button 2",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert"
+                                    },
+                                    "_type": "ButtonCta"
+                                }
+                            ],
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    } 
     "unsupported": {
         "messages": [
             {
