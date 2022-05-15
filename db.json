@@ -91,9 +91,9 @@
                                     "_type": "ButtonCta"
                                 },
                                 {
-                                    "backgroundColorHex": "#FCB632",
+                                    "backgroundColorHex": "#f54263",
                                     "textColorHex": "#ffffff",
-                                    "text": "Deeplink!",
+                                    "text": "Button 2",
                                     "report": "cta_1",
                                     "action": {
                                         "_type": "AppNavigation",
