@@ -86,7 +86,8 @@
                                     "report": "cta_1",
                                     "action": {
                                         "_type": "AppNavigation",
-                                        "appNavigationCommandIOS": "alert"
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
                                     },
                                     "_type": "ButtonCta"
                                 },
@@ -97,7 +98,8 @@
                                     "report": "cta_1",
                                     "action": {
                                         "_type": "AppNavigation",
-                                        "appNavigationCommandIOS": "alert"
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
                                     },
                                     "_type": "ButtonCta"
                                 }
