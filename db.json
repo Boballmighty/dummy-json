@@ -141,7 +141,8 @@
                                     "report": "cta_1",
                                     "action": {
                                         "_type": "AppNavigation",
-                                        "appNavigationCommandIOS": "showToast"
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "showToast"
                                     },
                                     "_type": "ButtonCta"
                                 }
