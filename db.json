@@ -148,7 +148,7 @@
                                 }
                             ],
                             "anchor": {
-                                "viewAnchor": "Half",
+                                "viewAnchor": "ThreeQuarter",
                                 "anchorPosition": "Above",
                                 "spacing": 0
                             }
