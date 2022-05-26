@@ -45,14 +45,14 @@
                         },
                         {
                             "_type": "TextViewType",
-                            "contentText": "Test Text",
+                            "contentText": "Test Text TestTestTestTestTestTest \nTestTestTestTestTestTest",
                             "textSize": 30,
                             "textColorHex": "#ffffff",
                             "viewId": "Text1",
                             "anchor": {
                                 "viewAnchor": "Quarter",
-                                "anchorPosition": "Below",
-                                "spacing": 44
+                                "anchorPosition": "Above",
+                                "spacing": 
                             }
                         },
 						{
