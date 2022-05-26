@@ -54,6 +54,31 @@
                                 "anchorPosition": "Below",
                                 "spacing": 44
                             }
+                        },
+                        {
+                            "_type": "ButtonViewType",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "ctas": [
+                                {
+                                    "backgroundColorHex": "#FCB632",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Deeplink!",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
+                                    },
+                                    "_type": "ButtonCta"
+                                }
+                            ],
+                            "anchor": {
+                                "viewAnchor": "Id",
+                                "anchorPosition": "Above",
+                                "anchorToViewId": "Text1",
+                                "spacing": 0
+                            }
                         }
                     ],
                     "_type": "FullScreenInAppModel"
@@ -163,7 +188,7 @@
                 }
             }
         ]
-    }, 
+    },
     "unsupported": {
         "messages": [
             {
@@ -176,7 +201,7 @@
                             "_type": "ButtonViewType",
                             "button1Text": "Button 1",
                             "button2Text": "Button 2 text",
-                            "buttonNumber" : 2,
+                            "buttonNumber": 2,
                             "buttonSpacing": 20,
                             "viewId": "Button",
                             "anchor": {
