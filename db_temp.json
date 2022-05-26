@@ -55,18 +55,6 @@
                                 "spacing": 44
                             }
                         },
-						{
-                            "_type": "TextViewType",
-                            "contentText": "Test Text",
-                            "textSize": 30,
-                            "textColorHex": "#ffffff",
-                            "viewId": "Text2",
-                            "anchor": {
-                                "viewAnchor": "ThreeQuarter",
-                                "anchorPosition": "Above",
-                                "spacing": 0
-                            }
-                        },
                         {
                             "_type": "ButtonViewType",
                             "buttonSpacing": 20,
@@ -87,9 +75,9 @@
                             ],
                             "anchor": {
                                 "viewAnchor": "Id",
-                                "anchorPosition": "Below",
-                                "anchorToViewId": "Text2",
-                                "spacing": 10
+                                "anchorPosition": "Above",
+                                "anchorToViewId": "Text1",
+                                "spacing": 0
                             }
                         }
                     ],
@@ -186,6 +174,49 @@
                             ],
                             "anchor": {
                                 "viewAnchor": "ThreeQuarter",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    },
+    "unsupported": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "button1Text": "Button 1",
+                            "button2Text": "Button 2 text",
+                            "buttonNumber": 2,
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        },
+                        {
+                            "_type": "unsupported",
+                            "button1Text": "Button 1",
+                            "button2Text": "Button 2 text",
+                            "viewId": "Button",
+                            "anchor": {
+                                "viewAnchor": "Half",
                                 "anchorPosition": "Above",
                                 "spacing": 0
                             }
