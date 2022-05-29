@@ -68,7 +68,7 @@
                             }
                         },
                         {
-                            "_type": "ButtonViewType",
+                            "_type": "ButtonsBarViewType",
                             "buttonSpacing": 20,
                             "viewId": "Button",
                             "ctas": [
@@ -112,7 +112,7 @@
                 "presentation": {
                     "viewTypes": [
                         {
-                            "_type": "ButtonViewType",
+                            "_type": "ButtonsBarViewType",
                             "buttonSpacing": 20,
                             "viewId": "Button",
                             "ctas": [
@@ -167,7 +167,7 @@
                 "presentation": {
                     "viewTypes": [
                         {
-                            "_type": "ButtonViewType",
+                            "_type": "ButtonsBarViewType",
                             "buttonSpacing": 20,
                             "viewId": "Button",
                             "ctas": [
