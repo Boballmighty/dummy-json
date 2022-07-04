@@ -13,7 +13,7 @@
                             "textSize": 30,
                             "textColorHex": "#ffffff",
                             "viewId": "Text1",
-			    "textAlignment": "START",
+			    "textAlignment": "Start",
                             "anchor": {
                                 "viewAnchor": "Quarter",
                                 "anchorPosition": "Below",
@@ -49,7 +49,7 @@
                             "contentText": "Test Text TestTestTestTestTestTest \nTestTestTestTestTestTest",
                             "textSize": 30,
                             "textColorHex": "#ffffff",
-			    "textAlignment": "START",
+			    "textAlignment": "Start",
                             "viewId": "Text1",
                             "anchor": {
                                 "viewAnchor": "Quarter",
@@ -62,7 +62,7 @@
                             "contentText": "Test Text",
                             "textSize": 30,
                             "textColorHex": "#ffffff",
-			    "textAlignment": "END",
+			    "textAlignment": "End",
                             "viewId": "Text2",
                             "anchor": {
                                 "viewAnchor": "ThreeQuarter",
