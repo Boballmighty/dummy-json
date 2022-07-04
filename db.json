@@ -74,6 +74,7 @@
                             "_type": "ButtonsBarViewType",
                             "buttonSpacing": 20,
                             "viewId": "Button",
+                            "layoutWidth": "Full",
                             "ctas": [
                                 {
                                     "backgroundColorHex": "#FCB632",
@@ -118,6 +119,7 @@
                             "_type": "ButtonsBarViewType",
                             "buttonSpacing": 20,
                             "viewId": "Button",
+                            "layoutWidth": "Wrap",
                             "ctas": [
                                 {
                                     "backgroundColorHex": "#FCB632",
