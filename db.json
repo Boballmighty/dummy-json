@@ -13,6 +13,7 @@
                             "textSize": 30,
                             "textColorHex": "#ffffff",
                             "viewId": "Text1",
+			    "textAlignment": "START",
                             "anchor": {
                                 "viewAnchor": "Quarter",
                                 "anchorPosition": "Below",
