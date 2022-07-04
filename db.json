@@ -49,6 +49,7 @@
                             "contentText": "Test Text TestTestTestTestTestTest \nTestTestTestTestTestTest",
                             "textSize": 30,
                             "textColorHex": "#ffffff",
+			    "textAlignment": "START",
                             "viewId": "Text1",
                             "anchor": {
                                 "viewAnchor": "Quarter",
